@@ -8,34 +8,57 @@
 </head>
 
 <body>
-    <!-- Header Section with Navigation Links for All Pages -->
-    <header>
-        <h1> My Website</h1>
-        <nav> <a href="index.html">Landing Page</a><br>
-            <a href="skills.html">Skills Page</a><br>
-            <a href="contact.html">Contact Page</a>
-        </nav>
-
-    </header>
-
-    <h2>Contact Me</h2>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br>
-        <!-- <label for="N" id="label-N">Name:</label> -->
-        <!-- <input id="N" name="N" type="text" value="John Doe" aria-readonly="true" readonly><br> -->
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br>
-        <label for="message">Message:</label>
-        <textarea id="message" rows="4" cols="50" required></textarea>
-        <input type="submit" value="Send">
-    </form>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 Md Rakibul Hassan</p>
-    </footer>
-
+    <table width="100%">
+        <tr>
+            <section>
+                <td width="20%"><b>Rakib</b></td>
+            </section>
+            <section>
+                <td width="30%">
+                    <a href="index.html">Home</a>
+                    <a href="skills.html">Skills</a>
+                </td>
+            </section>
+            <section>
+                <td width="50%">
+                    <a href="contact.html">Contact</a>
+                </td>
+            </section>
+        </tr>
+    </table>
+    <h2>Lets have a chat</h2>
+    <table width="100%" align="left">
+        <tr>
+            <td>
+                <form>
+                    <label for=" name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Md Rakibul Hassan" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="md.rakibul@example.com" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" rows="4" cols="50" placeholder="Your message here..." required></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </td>
+            <td width="50%" align="right">
+                <img src="images/Md_Rakibul_Hassan.jpg" alt="My Photo" style="width:300px">
+            </td>
+        </tr>
+    </table>
+    <table width="100%">
+        <tr>
+            <section>
+                <td width="50%">
+                    <p>Created by Md Rakibul Hassan</p>
+                </td>
+            </section>
+            <section>
+                <td width="50%">
+                    <p>Copyright &copy; 2025</p>
+                </td>
+            </section>
+        </tr>
+    </table>
 </body>
 
 </html>
