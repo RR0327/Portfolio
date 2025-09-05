@@ -2,7 +2,7 @@
 
 **Passionate Computer Science Junior**
 
-Passionate about building  scable and secure website.
+Passionate about building scable, secure website. I enjoy solving complex problems with clean, efficient code.
 
 ---
 
