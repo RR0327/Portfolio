@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         .hero {
@@ -20,26 +20,23 @@
             flex: 1;
         }
 
-        .hero .left form {
-            display: flex;
-            flex-direction: column;
-            gap: 1px;
+        .hero .right h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
         }
 
-        .hero .left form input,
-        .hero .left form textarea {
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+        .hero .right p {
+            font-size: 24px;
+            margin-bottom: 15px;
         }
 
-        .hero .right {
+        .hero .left {
             flex: 1;
             text-align: right;
         }
 
-        .hero .right img {
-            max-width: 450px;
+        .hero .left img {
+            max-width: 300px;
             border-radius: 50px;
             border: 5px solid #ccc;
         }
@@ -63,21 +60,13 @@
 
     <div class="hero">
         <div class="left">
-            <h2>Lets have a chat</h2>
-            <br>
-            <form>
-                <label for=" name">Name:</label><br>
-                <input type="text" id="name" name="name" placeholder="Md Rakibul Hassan" required><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" placeholder="md.rakibul@example.com" required><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" rows="4" cols="50" placeholder="Your message here..." required></textarea>
-                <input type="submit" value="Send">
-            </form>
+            <img src="images/Md_Rakibul_Hassan.jpg" alt="My Photo">
         </div>
 
         <div class="right">
-            <img src="images/Md_Rakibul_Hassan.jpg" alt="My Photo">
+            <h1>Hello, I'm Md Rakibul Hassan</h1>
+            <p class="mb-3">I'm always exploring new ways to innovate with technology and aim to build scalable and
+                efficient websites.</p>
         </div>
     </div>
 

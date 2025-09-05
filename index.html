@@ -5,57 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            gap: 20px;
+            height: 80vh;
+        }
+
+        .hero .left {
+            flex: 1;
+        }
+
+        .hero .left h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        .hero .left p {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        .hero .left a {
+            margin-right: 10px;
+            font-size: 30px;
+            color: blue;
+            text-decoration: none;
+        }
+
+        .hero .left a:hover {
+            color: rgb(64, 16, 255);
+        }
+
+        .hero .right {
+            flex: 1;
+            text-align: right;
+        }
+
+        .hero .right img {
+            max-width: 450px;
+            border-radius: 50%;
+            border: 5px solid #ccc;
+        }
+    </style>
 </head>
 
 <body>
-    <table width="100%">
-        <tr>
-            <section>
-                <td width="20%"><b>Rakib</b></td>
-            </section>
-            <section>
-                <td width="30%">
-                    <a href="index.html">Home</a>
-                    <a href="skills.html">Skills</a>
-                </td>
-            </section>
-            <section>
-                <td width="50%">
-                    <a href="contact.html">Contact</a>
-                </td>
-            </section>
-        </tr>
-    </table>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><b>Rakib</b></a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="left">
+            <h1>Hello, I'm Md Rakibul Hassan</h1>
+            <p class="mb-3">Passionate Computer Science Junior.</p>
+            <a href="https://www.linkedin.com/in/md-rakibul-hassan-miyaji" class="text-light">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/RR0327" class="text-light">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
 
-    <table>
-        <tr>
-            <td>
-                <section>
-                    <h1>Hello, My name is Md Rakibul Hassan</h1>
-                    <p>I am a student of BAIUST. Welcome to my personal website!</p>
-                </section>
-            </td>
-            <td>
-                <section>
-                    <img src="images/Md_Rakibul_Hassan.jpg" alt="My Photo">
-                </section>
-            </td>
-        </tr>
-    </table>
-    <table width="100%">
-        <tr>
-            <section>
-                <td width="50%">
-                    <p>Created by Md Rakibul Hassan</p>
-                </td>
-            </section>
-            <section>
-                <td width="50%">
-                    <p>Copyright &copy; 2025</p>
-                </td>
-            </section>
-        </tr>
-    </table>
+        <div class="right">
+            <img src="images/Md_Rakibul_Hassan.jpg" alt="My Photo">
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Created by Md Rakibul Hassan</p>
+        <p>&copy; 2025</p>
+    </footer>
+
 </body>
 
 </html>

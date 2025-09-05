@@ -5,49 +5,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .skills {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            min-height: 80vh;
+        }
+
+        .skills h2 {
+            margin-bottom: 12px;
+            font-size: 1.6rem;
+            color: #0015ff;
+            text-decoration: 1px underline;
+        }
+
+        .skills h2:hover {
+            color: #5116da;
+        }
+
+        .skills li {
+            text-decoration: none;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .skills li {
+            width: 25vh;
+            text-align: center;
+            padding: 10px;
+            font-size: 24px;
+            color: #111;
+            background: #a3ade9;
+            border-radius: 8px;
+            border: 2px solid #cab5e9;
+        }
+
+        .skills li:hover,
+        .skills li:focus {
+            background: #8bc5fc;
+            color: #111;
+        }
+    </style>
 </head>
 
 <body>
-    <table width="100%">
-        <tr>
-            <section>
-                <td width="20%"><b>Rakib</b></td>
-            </section>
-            <section>
-                <td width="30%">
-                    <a href="index.html">Home</a>
-                    <a href="skills.html">Skills</a>
-                </td>
-            </section>
-            <section>
-                <td width="50%">
-                    <a href="contact.html">Contact</a>
-                </td>
-            </section>
-        </tr>
-    </table>
-    <table border="1" cellspacing="5">
-        <h2>Here are my Top skills</h2>
-        <tr>
-            <td align="center">HTML</td>
-            <td align="center">CSS</td>
-            <td align="center">Python</td>
-        </tr>
-    </table>
-    <table width="100%">
-        <tr>
-            <section>
-                <td width="50%">
-                    <p>Created by Md Rakibul Hassan</p>
-                </td>
-            </section>
-            <section>
-                <td width="50%">
-                    <p>Copyright &copy; 2025</p>
-                </td>
-            </section>
-        </tr>
-    </table>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><b>Rakib</b></a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="skills">
+        <h2>Here are my Top skills:</h2><br>
+        <ul>
+            <li><b>Learning:</b> HTML</li>
+            <li><b>Learning:</b> CSS</li>
+            <li><b>Learning:</b> Python</li>
+            <li><b>Learning:</b> Django</li>
+        </ul>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Created by Md Rakibul Hassan</p>
+        <p>&copy; 2025</p>
+    </footer>
+
 </body>
 
 </html>
