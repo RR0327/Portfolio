@@ -1,23 +1,40 @@
-# <h1 align="center"> Hi, I'm Md Rakibul Hassan </h1>
+# <h1 align="center">My Personal Website </h1>
 
-**Passionate Computer Science Junior**
+This a simple personal portfolio website.
 
-Passionate about building scable, secure website. I enjoy solving complex problems with clean, efficient code.
+## Technology Used
+- **HTML5**
+- **CSS**
+
+---
+## Screenshot
+
+![Screenshot](./images/Home_Page.png)
 
 ---
 
-## Skills
-- **Web/Media:** HTML, CSS
+## Project Structure
+```
+BAIUST_COMPUTER_CLUB/
 
+├── images/
+| ├── Home_Page.png
+| ├── Md_Rakibul_Hassan.jpg
+├──about.html
+├──contact.html
+├──index.html
+├──projects.html
+├──README.md
+├──skills.html
+├──styles.css
+
+```
 ---
 
-## What I'm working on
-- Improving web fundamentals
+## Built by
+**Md Rakibul Hassan**
 
----
-
-## Connect with me
-[LinkedIn](https://www.linkedin.com/in/md-rakibul-hassan-miyaji)  
+*Passionate Computer Science Junior* [LinkedIn](https://www.linkedin.com/in/md-rakibul-hassan-miyaji)  
 Email: rakibulhassan0327@gmail.com  
 
 ## License
